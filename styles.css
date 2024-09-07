@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #FCDE9C;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #381D2A;
+}
+
+input[type="text"] {
+    border: 2px solid #381D2A;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #381D2A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    background-color: #BA5624;
+}
+
+.resultados-pesquisa {
+    width: 80%;
+    /* Largura máxima da caixa de resultados */
+    height: 60vh;
+    /* Altura máxima da caixa de resultados */
+    overflow-y: auto;
+    /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem;
+    /* Espaçamento acima da caixa de resultados */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+}
+
+.descricao-meta {
+    color: #45474B;
+    /* Cor do texto */
+    margin: 0.5rem 0;
+    /* Margem acima e abaixo */
+}
+
+.item-resultado {
+    background: #BA5624;
+    /* Cor de fundo dos itens */
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+    padding: 1rem;
+    /* Espaçamento interno */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+}
+
+#resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify; 
+    /* justificando o texto para ficar configurado para que fique alinhado */
+}
+
+.resultado {
+    border: 1px solid #BA5624;
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+    display: flex;
+    opacity: 0;
+    /* Inicialmente oculto */
+    animation: aparecer 0.5s forwards;
+    /* Animação de aparecer */
+}
+
+/* modifica o tamanho das imagens para caber dentro das caixas */
+.resultado img {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    padding: 30px;
+}
+
+/* criação da animação para as imagens desaparecer */
+.desaparecer {
+    animation: desaparecer 0.5s forwards;
+}
+
+/* faz com que as informações na base de dados aparece com um pequeno efeito de aparecer */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* faz com que as informações na base de dados aparece com um pequeno efeito de desaparecer*/
+/* @keyframes desaparecer {
+    from {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(0);
+    }
+} */
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+
+}
