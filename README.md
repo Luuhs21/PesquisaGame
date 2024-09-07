@@ -1,3 +1,5 @@
+###Pesquisando sobre Games em 2024 - Imersão Dev Alura com Google Gemini
+
 ### Introdução
 
 - **Objetivo:** Apresentar um site web desenvolvido para auxiliar os usuários a encontrar informações sobre jogos lançados em 2024.
