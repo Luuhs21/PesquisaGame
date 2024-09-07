@@ -33,7 +33,13 @@ let jogos = [
     },
     {
         nome: 'The Legend of Zelda: Echoes of Wisdom', imagem: 'img/the-legend-of-zelda-echos-wisdom-img.jpg', plataformas: 'Nintendo Switch',
-        descricao: 'The Legend of Zelda: Echoes of Wisdom é um jogo da famosa série The Legend of Zelda, lançado para o Nintendo Switch. Neste título, a protagonista é a própria Princesa Zelda, que assume o papel de heroína em uma jornada épica para salvar Hyrule.', site: '<a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-echoes-of-wisdom-switch/?srsltid=AfmBOopEGZ7pFAD2lY-Q8YH0rYABqewC6DaTW05293EDMNPMvqF0040u" target="_blank">Paper Mario: The Thousand-Year Door</a>', tags: "link nintendo princesa hyrule"
+        descricao: 'The Legend of Zelda: Echoes of Wisdom é um jogo da famosa série The Legend of Zelda, lançado para o Nintendo Switch. Neste título, a protagonista é a própria Princesa Zelda, que assume o papel de heroína em uma jornada épica para salvar Hyrule.', site: '<a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-echoes-of-wisdom-switch/?srsltid=AfmBOopEGZ7pFAD2lY-Q8YH0rYABqewC6DaTW05293EDMNPMvqF0040u" target="_blank">The Legend of Zelda: Echoes of Wisdom</a>', tags: "link nintendo princesa hyrule"
+    },  
+    {
+        nome: 'Prince of Persia: The Lost Crown', imagem: 'img/prince-of-persia-img.jpg', plataformas: 'PC, PS5, PS4, Xbox Series X|S, Xbox One, Nintendo Switch', descricao: 'Prince of Persia: The Lost Crown é um jogo de plataforma e ação em 2D que te leva para um mundo mitológico persa repleto de mistérios e desafios. A história te coloca no papel de Sargon, um membro dos Imortais, que embarca em uma jornada para salvar o príncipe Ghassan. Durante essa aventura, você terá que lidar com os perigos do Monte Qaf, um lugar onde o tempo se comporta de maneira peculiar.', site: '<a href="https://www.ubisoft.com/pt-br/game/prince-of-persia/the-lost-crown" target="_blank">Prince of Persia: The Lost Crown</a>', tags: "prince persia coroa ubisoft"
     },
-    // adicionar novas entradas de games a partir daqui 
+    {
+        nome: 'Tekken 8', imagem: 'img/tekken-8-img.jpg', plataformas: 'PC, PS5, Xbox Series X|S, steam', descricao: 'Tekken 8 é o mais recente capítulo da lendária série de jogos de luta da Bandai Namco. Com gráficos impressionantes, graças à Unreal Engine 5, o jogo oferece uma experiência visualmente deslumbrante e imersiva. A história continua a saga da família Mishima, com Jin Kazama desafiando seu pai, Kazuya Mishima, em um confronto épico que promete abalar o mundo. A narrativa se aprofunda nos laços familiares e nas lutas internas dos personagens, prometendo uma jornada emocionante para os fãs da série.', site: '<a href="https://tekken.com/" target="_blank">Tekken 8</a>', tags: "tekken jin capcom luta"
+    },
 ];
+    // adicionar novas entradas de games a partir daqui 
