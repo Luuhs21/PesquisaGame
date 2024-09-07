@@ -1,4 +1,4 @@
-###Pesquisando sobre Games em 2024 - Imersão Dev Alura com Google Gemini
+### Pesquisando sobre Games em 2024 - Imersão Dev Alura com Google Gemini
 
 ### Introdução
 
