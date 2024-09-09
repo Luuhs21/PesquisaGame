@@ -2,6 +2,8 @@
 let buscaInput = document.getElementById('busca');
 let resultadosDiv = document.getElementById('resultados');
 let botaoLimpar = document.getElementById('botao-limpar');
+let botaoInicio = document.getElementById('botao-topo');
+window.onscroll = function() {scrollFunction()};
 let dados = []; //acessa o arquivo dados onde estão sendo guardados as informações dos jogos 
 
 
@@ -33,7 +35,20 @@ buscaInput.addEventListener('input', () => {
     });
 });
 
+botaoInicio.addEventListener("click", topFunction);
 
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        botaoInicio.style.display = "block";
+    } else {
+        botaoInicio.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+}
 
 
 
