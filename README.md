@@ -32,7 +32,8 @@
     - Busca por tags relacionadas ao jogo.
     - Exibição detalhada dos jogos encontrados.
     - Limpeza da busca.
-    - Animações de transição.
+    - Animações de entrada das informações.
+    - Botão para retornar ao inicio da busca ao descer a pagina.
       
 - **Desafios e soluções:**
     - Limitação do tamanho das imagens dentro dos campos indicados para a aparecer as informações.
